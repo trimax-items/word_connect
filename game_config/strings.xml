@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Word Connect</string>
+
+
+
+    <!-- Shows or hide the virtual navigation buttons at the bottom of some Android devices -->
+    <bool name="IMMERSIVE_MODE">true</bool>
+
+
+
+    <!--  ADMOB CONFIGURATION -->
+    <string name="ADMOB_APP_ID">ca-app-pub-8523325147591124~2275034794</string>
+    <string name="ADMOB_REWARDED_AD_UNIT_ID">ca-app-pub-5823345147351229/5323949463</string>
+    <string name="ADMOB_INTERSTITIAL_AD_UNIT_ID">ca-app-pub-3525367197501327/3613209229</string>
+
+    <bool name="ADMOB_IS_INTERSTITIAL_AD_ENABLED">true</bool>
+    <bool name="ADMOB_IS_REWARDED_AD_ENABLED_TO_EARN_COINS">true</bool>
+    <bool name="ADMOB_IS_REWARDED_AD_ENABLED_TO_SPIN_LUCKY_WHEEL">true</bool>
+
+    <!-- Moves are limited in bomb levels -->
+    <bool name="ADMOB_IS_REWARDED_AD_ENABLED_TO_EARN_MOVES">true</bool>
+
+    <!-- You can limit watching rewarded videos. Time to next video is shown to the user above
+    the rewarded video button. When the remaining time is greater than 0, rewarded video button
+    and watch-earn dialog will not be enabled. Make this 0 for unlimited rewarded ads -->
+    <integer name="ADMOB_INTERVAL_BETWEEN_REWARDED_ADS_IN_SECONDS">60</integer>
+
+    <!-- If you enable this option you should also take into account the device hash code right below -->
+    <bool name="ADMOB_IS_TESTING_ADS">false</bool>
+
+    <!-- In order to test ads open logcat and search for "addTestDevice or setTestDeviceIds", then copy the hash code in that line below.
+    Hash id for emulator is already embedded in code for you (it is a constant value) -->
+    <string name="ADMOB_REAL_DEVICE_HASH_ID_FOR_TESTING">E2A32550C689E73799A6AE0EB90508D4</string>
+
+    <!-- Your device will behave as if it were in a European country -->
+    <bool name="ADMOB_IS_TESTING_GDPR">false</bool>
+
+
+
+
+
+
+    <!-- IAP CONFIGURATION -->
+
+    <!-- If you disable IAP don't forget to remove its permission in AndroidManifest.xml -->
+    <bool name="IAP_ENABLED">true</bool>
+
+    <!-- Do not make any changes below or the app will break -->
+    <!-- The quantity of items can be changed at word.game.config.GameConfig.java -->
+    <string name="IAP_ITEM_remove_ads">01</string>
+    <string name="IAP_ITEM_pack_jumbo">05</string>
+    <string name="IAP_ITEM_pack_large">04</string>
+    <string name="IAP_ITEM_pack_medium">03</string>
+    <string name="IAP_ITEM_pack_mini">02</string>
+    <string name="IAP_ITEM_coin_13440">11</string>
+    <string name="IAP_ITEM_coin_6240">10</string>
+    <string name="IAP_ITEM_coin_2940">09</string>
+    <string name="IAP_ITEM_coin_1340">08</string>
+    <string name="IAP_ITEM_coin_760">07</string>
+    <string name="IAP_ITEM_coin_240">06</string>
+
+
+
+
+    <!-- Your email address for support request in the game menu, you will receive emails to this address -->
+    <string name="email">your_email_address_here@gmail.com</string>
+
+</resources>
